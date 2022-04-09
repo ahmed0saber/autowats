@@ -1,15 +1,52 @@
 @media screen and (max-width: 860px) {
     header{
-        padding: 150px 8px 0 8px;
+        padding: 80px 8px 40px 8px;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    .toggler{
+        display: block;
+    }
+    .toggler button{
+        width: 50px;
+        height: 40px;
+        font-size: 22px;
+        color: #fff;
+        background-color: #0000;
+        border: 2px solid #fff;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+    }
+    .toggler button:active{
+        color: #23D4CE;
+        background-color: #0000;
+        border: 2px solid #23D4CE;
     }
     .nav-links{
-        display: none;
+        padding: 0;
+        margin: 20px 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .nav-links a{
+        width: 100%;
+        margin: 4px;
+        padding: 8px;
+        font-size: 16px;
     }
     .nav-btns{
         display: none;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
     }
-    nav:hover :is(.nav-links, .nav-btns){
-        display: flex;
+    .youtube{
+        width: 100px;
     }
 }
 
@@ -26,26 +63,9 @@
     .pricing .row .col{
         min-width: 100%;
     }
-    nav{
-        display: flex;
-        flex-direction: column;
-    }
-    .nav-links{
-        padding: 0;
-        margin: 20px 0;
-        flex-direction: column;
-        justify-content: flex-start;
-        width: 100%;
-    }
-    .nav-links a{
-        width: 100%;
-        margin: 4px;
-        padding: 8px;
-        font-size: 16px;
-    }
-    .bg-shade{
+    /*.bg-shade{
         display: none;
-    }
+    }*/
     header section{
         min-width: 100%;
     }

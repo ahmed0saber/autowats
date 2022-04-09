@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AUTOWATS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./responsive.css">
 </head>
-<body>
+<body onresize="check_screen()">
     <nav>
         <a href="#home"><img src="./images/logo 7.svg" alt="logo"/></a>
+        <div class="toggler">
+            <button onclick="toggle()" class="nav-toggler fa fa-bars"></button>
+        </div>
         <div class="nav-links">
             <a href="#features">Features</a>
             <a href="#services">Services</a>
@@ -28,7 +32,7 @@
         </div>
     </nav>
 
-    <div class="bg-shade"></div>
+    <!-- <div class="bg-shade"></div> -->
     <header id="home">
         <section>
             <h1>Group <span>What’sApp</span> messaging service</h1>
@@ -335,4 +339,5 @@
         </div>
     </section>
 </body>
+<script src="./script.js"></script>
 </html>
