@@ -49,6 +49,21 @@
     .youtube{
         width: 100px;
     }
+    .testi .testi-map .reviews{
+        width: 90%;
+        padding: 8px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        -webkit-transform: translateY(-50%) translateX(-50%);
+        -moz-transform: translateY(-50%) translateX(-50%);
+        -ms-transform: translateY(-50%) translateX(-50%);
+        -o-transform: translateY(-50%) translateX(-50%);
+    }
+    .testi .testi-map .reviews:before{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 700px) {

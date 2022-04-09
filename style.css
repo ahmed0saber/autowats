@@ -116,6 +116,7 @@ header section:first-of-type h1{
     color: #fff;
     font-size: 50px;
     margin: 16px 0;
+    line-height: 61.5px;
 }
 header section:first-of-type h1 span{
     color: #23D4CE;
@@ -124,6 +125,7 @@ header section:first-of-type p{
     color: #EFEFEF;
     font-size: 18px;
     margin: 16px 0;
+    line-height: 33.5px;
 }
 header section:first-of-type a{
     text-decoration: none;
@@ -211,6 +213,8 @@ header section:last-of-type img{
 .features section div p{
     font-size: 16px;
     margin: 10px 0;
+    line-height: 20px;
+    text-align: center;
 }
 
 .services .text{
@@ -650,17 +654,30 @@ header section:last-of-type img{
     -ms-transform: translateY(-50%) translateX(-50%);
     -o-transform: translateY(-50%) translateX(-50%);
     display: none;
+    z-index: 2;
 }
 .testi .testi-map .reviews:target{
     display: block;
 }
+.testi .testi-map .reviews div.name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
 .testi .testi-map .reviews h3{
     font-size: 20px
 }
+.testi .testi-map .reviews a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #323232;
+}
 .testi .testi-map .reviews p{
-    margin: 10px 20px;
+    margin: 10px 20px 20px 20px;
     text-align: left;
     color: #595961;
+    line-height: 20px;
 }
 .testi .testi-map .reviews:before{
     content: "";
@@ -704,6 +721,12 @@ header section:last-of-type img{
 .testi .testi-map .review6{
     top: 93%;
     left: 83%;
+}
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* https://www.figma.com/file/CNVEAAAMVw3zS9NcILVbB0/Autowats?node-id=41%3A4548 */
