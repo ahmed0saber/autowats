@@ -1,0 +1,53 @@
+@media screen and (max-width: 860px) {
+    header{
+        padding: 150px 8px 0 8px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-btns{
+        display: none;
+    }
+    nav:hover :is(.nav-links, .nav-btns){
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header{
+        padding: 150px 8px 0 8px;
+    }
+    .features section div{
+        max-width: 100%;
+    }
+    .pricing .row{
+        padding: 60px 20px;
+    }
+    .pricing .row .col{
+        min-width: 100%;
+    }
+    nav{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-links{
+        padding: 0;
+        margin: 20px 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .nav-links a{
+        width: 100%;
+        margin: 4px;
+        padding: 8px;
+        font-size: 16px;
+    }
+    .bg-shade{
+        display: none;
+    }
+    header section{
+        min-width: 100%;
+    }
+}
