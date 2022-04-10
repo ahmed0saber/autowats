@@ -1,3 +1,9 @@
+@media screen and (max-width: 1032px) {
+    header{
+        padding: 100px 8px 40px 8px;
+    }
+}
+
 @media screen and (max-width: 860px) {
     header{
         padding: 80px 8px 40px 8px;
@@ -68,7 +74,7 @@
 
 @media screen and (max-width: 700px) {
     header{
-        padding: 150px 8px 0 8px;
+        padding: 100px 8px 0 8px;
     }
     .features section div{
         max-width: 100%;
