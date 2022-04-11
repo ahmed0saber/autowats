@@ -519,7 +519,7 @@ header section:last-of-type img{
     margin: 0 10px;
 }
 .pricing .row .col a{
-    padding: 6px;
+    padding: 8px;
     width: 80%;
     display: block;
     margin: 0 auto 30px auto;
@@ -556,10 +556,46 @@ header section:last-of-type img{
 }
 .contact .row{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
     padding: 60px 80px;
+}
+.contact .row .col{
+    flex: 1;
+    width: 100%;
+    min-width: 300px;
+    margin: 0 0 20px 0;
+    padding: 10px;
+}
+.contact .row .col :is(input, textarea, button){
+    width: 100%;
+    border: none;
+    margin: 10px 0;
+    padding: 6px 10px;
+    height: 42px;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    outline: none;
+}
+.contact .row .col textarea{
+    resize: none;
+    height: 120px;
+}
+.contact .row .col button{
+    width: fit-content;
+    padding: 12px 36px;
+    background-color: #23D4CE;
+    color: #f7f7f7;
+}
+.contact .row .col h3{
+    font-size: 22px;
+    margin: 10px 0;
+}
+.contact .row .col p{
+    font-size: 16px;
+    margin: 10px 0;
 }
 
 .testi{
